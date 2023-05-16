@@ -12,6 +12,6 @@ https://github.com/bungle/lua-resty-session
 
 4. download https://github.com/fffonion/lua-resty-openssl
 5. move lib.resty to OpenResty Dict
-6. add dict in nginx.conf since in moulude which is using shm as storage. 
+6. add dict in http zone of nginx.conf since in moulude which is using shm as storage. 
 > lua_shared_dict sessions 10m;
 7. done
